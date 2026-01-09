@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2d7a5f;
+  --color-primary-dark: #1e5240;
+  --color-secondary: #4a9b7f;
+  --color-accent: #1a4d6d;
+  --color-dark: #0f172a;
+  --color-light: #f8fafc;
+  --color-text-main: #334155;
+  --color-text-light: #64748b;
+  --color-border: #e2e8f0;
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+  
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --shadow-float: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans text-text-main bg-white antialiased overflow-x-hidden;
+}
+
+.container {
+  @apply mx-auto px-6 max-w-7xl;
+}
+
+/* --- Animasyonlar --- */
+@keyframes blob-bounce {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-20px) scale(1.05); }
+}
+
+@keyframes heart-beat {
+  0%, 100% { transform: scale(1); }
+  25% { transform: scale(1.2); }
+  50% { transform: scale(1); }
+  75% { transform: scale(1.2); }
+}
+
+.animate-blob {
+  animation: blob-bounce 10s infinite ease-in-out;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Kalp Atışı Sınıfı */
+.heart-beat {
+  animation: heart-beat 1.5s infinite ease-in-out;
+  display: inline-block;
+}
+
+/* Form Elemanları */
+.input-modern {
+  @apply w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all duration-300;
+}
+
+.label-modern {
+  @apply block text-sm font-semibold text-gray-700 mb-1.5 ml-1;
+}
+
+/* Scroll Reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Arkaplan Izgarası */
+.bg-grid-slate-100 {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(241 245 249 / 0.1)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+}

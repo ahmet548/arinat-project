@@ -8,6 +8,8 @@ const authRoutes = require('./routes/auth');
 const eventRoutes = require('./routes/events');
 const announcementRoutes = require('./routes/announcements');
 const notificationRoutes = require('./routes/notifications');
+const initDbRoute = require('./routes/initDb'); // GEÇİCİ - Database kurulumundan sonra sil
+
 
 const app = express();
 
@@ -49,6 +51,8 @@ app.use('/api/auth', authRoutes);
 app.use('/api/events', eventRoutes);
 app.use('/api/announcements', announcementRoutes); // EKLENDİ
 app.use('/api/notifications', notificationRoutes); // EKLENDİ
+app.use('/api', initDbRoute); // GEÇİCİ - Database kurulumundan sonra sil
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, '0.0.0.0', () => console.log(`Backend ${PORT} portunda aktif ve ağdaki tüm cihazlardan erişilebilir.`));

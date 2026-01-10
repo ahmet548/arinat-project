@@ -1,12 +1,7 @@
-services:
-  # PostgreSQL Database
-  - type: postgres
-    name: arinat-db
-    plan: free
-    databaseName: arinat_db
-    user: arinat_user
-    ipAllowList: []
+# Render Blueprint - Sadece Backend
+# Not: Database'i manuel oluşturmanız gerekiyor (ücretsiz planda Blueprint ile database olmaz)
 
+services:
   # Backend Web Service
   - type: web
     name: arinat-backend
@@ -19,10 +14,7 @@ services:
         value: production
       - key: PORT
         value: 5000
-      - key: DATABASE_URL
-        fromDatabase:
-          name: arinat-db
-          property: connectionString
+      # DATABASE_URL'i manuel eklemeniz gerekecek (database oluşturduktan sonra)
       - key: JWT_SECRET
         generateValue: true
       - key: FRONTEND_URL

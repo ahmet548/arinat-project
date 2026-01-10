@@ -20,6 +20,9 @@ git push origin main
 
 ## 🔧 Adım 1: Backend'i Deploy Edin (Render)
 
+**Blueprint çalışmıyorsa manuel yapın:** [RENDER_MANUAL.md](./RENDER_MANUAL.md) ← **ÖNERİLEN**
+
+VEYA Blueprint ile (eğer çalışırsa):
 1. Render Dashboard → **New +** → **Blueprint**
 2. Repository seçin: `arinat-project`
 3. Apply → Blueprint otomatik çalışacak

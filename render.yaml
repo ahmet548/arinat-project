@@ -1,6 +1,6 @@
 services:
   # PostgreSQL Database
-  - type: pgsql
+  - type: postgres
     name: arinat-db
     plan: free
     databaseName: arinat_db

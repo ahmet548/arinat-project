@@ -82,24 +82,7 @@ const SnowEffect = () => {
 
 // --- GLOBAL PROJE VERİLERİ (Statik) ---
 const INITIAL_PROJECTS = [
-    {
-        id: 1,
-        title: "Kablosuz Elektrik Enerjisi İletimi",
-        category: "Enerji & Uzay",
-        desc: "Uzay tabanlı güneş enerjisi uyduları (SPS) kullanılarak, toplanan enerjinin mikrodalga frekanslarında rekten dizileri aracılığıyla yeryüzüne kablosuz aktarılması.",
-        image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
-        year: "2025",
-        status: "Prototip Geliştirme"
-    },
-    {
-        id: 2,
-        title: "MİTAGET Analog Çip Tasarımı",
-        category: "Mikroelektronik & Sağlık",
-        desc: "TEKNOFEST Çip Tasarım Yarışması kapsamında; taşınabilir sağlık cihazları için düşük güç tüketen yerli entegre analog ön uç (AFE) devre tasarımı.",
-        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop",
-        year: "2024",
-        status: "Tasarım & Simülasyon"
-    },
+
     {
         id: 3,
         title: "Mediget: Sağlıkta Yapay Zeka",
@@ -860,7 +843,7 @@ const MembershipSection = () => {
             href: "https://www.instagram.com/ktunarinat?igsh=MTdpZWlvczE3MHcwMA=="
         },
         { Icon: Twitter, href: "#" },
-        { Icon: Linkedin, href: "#" }
+        { Icon: Linkedin, href: "https://www.linkedin.com/in/arinat-ara%C5%9Ft%C4%B1rma-in%C5%9Fa-ve-armoni-toplulu%C4%9Fu-77b674393?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
     ];
 
     return (
@@ -963,12 +946,12 @@ const PublicFooter = () => (
                     Instagram
                 </a>
                 <a href="#" className="text-gray-400 hover:text-emerald-500 transition-colors">Twitter</a>
-                <a href="#" className="text-gray-400 hover:text-emerald-500 transition-colors">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/arinat-ara%C5%9Ft%C4%B1rma-in%C5%9Fa-ve-armoni-toplulu%C4%9Fu-77b674393?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-400 hover:text-emerald-500 transition-colors">LinkedIn</a>
             </div>
             <div className="w-full h-px bg-gray-100 max-w-xs mx-auto mb-8"></div>
             <div className="flex flex-col items-center gap-2">
                 <p className="text-gray-400 text-xs">© {new Date().getFullYear()} ARİNAT Topluluğu. Tüm hakları saklıdır.</p>
-                <a href="https://aayazilim.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-1.5 bg-gray-50 hover:bg-white rounded-full border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 group"><span className="text-[10px] text-gray-500 font-bold tracking-widest uppercase">Developed by</span><img src={aaLogo} alt="AA Yazılım" className="h-4 w-auto object-contain grayscale group-hover:grayscale-0 transition-all" /></a>
+                <a href="https://aayazilim.net" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-1.5 bg-gray-50 hover:bg-white rounded-full border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 group"><span className="text-[10px] text-gray-500 font-bold tracking-widest uppercase">Developed by</span><img src={aaLogo} alt="AA Yazılım" className="h-4 w-auto object-contain grayscale group-hover:grayscale-0 transition-all" /></a>
             </div>
         </div>
     </footer>

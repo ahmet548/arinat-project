@@ -379,8 +379,8 @@ const HeroSection = () => (
 
         <div className="container mx-auto px-4 relative z-20 text-center pt-20">
             <div className="space-y-8 flex flex-col items-center">
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 backdrop-blur-md border border-white/10 rounded-full text-sm font-medium text-emerald-300">
-                    <Sparkles size={16} className="text-yellow-400 fill-yellow-400" /><span>Konya Teknik Üniversitesi'nin İnovasyon Merkezi</span>
+                <div className="inline-flex items-center gap-1.5 px-3 py-1.5 md:gap-2 md:px-4 md:py-2 bg-white/5 backdrop-blur-md border border-white/10 rounded-full text-xs md:text-sm font-medium text-emerald-300 transition-all">
+                    <Sparkles className="text-yellow-400 fill-yellow-400 w-3 h-3 md:w-4 md:h-4" /><span>Konya Teknik Üniversitesi'nin İnovasyon Merkezi</span>
                 </div>
 
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-none text-white drop-shadow-2xl">

@@ -383,7 +383,7 @@ const HeroSection = () => (
                     <Sparkles className="text-yellow-400 fill-yellow-400 w-3 h-3 md:w-4 md:h-4" /><span>Konya Teknik Üniversitesi'nin İnovasyon Merkezi</span>
                 </div>
 
-                <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-none text-white drop-shadow-2xl">
+                <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-none text-white drop-shadow-2xl">
                     Sınırlarını  <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">Keşfet.</span> <br />
                     Kendini  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-violet-400">Oluştur.</span>
                 </h1>

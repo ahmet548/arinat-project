@@ -948,7 +948,7 @@ const PublicFooter = () => (
             <div className="w-full h-px bg-gray-100 max-w-xs mx-auto mb-8"></div>
             <div className="flex flex-col items-center gap-2">
                 <p className="text-gray-400 text-xs">© {new Date().getFullYear()} ARİNAT Topluluğu. Tüm hakları saklıdır.</p>
-                <a href="https://aayazilim.net" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-1.5 bg-gray-50 hover:bg-white rounded-full border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 group"><span className="text-[10px] text-gray-500 font-bold tracking-widest uppercase">Developed by</span><img src={aaLogo} alt="AA Yazılım" className="h-4 w-auto object-contain grayscale group-hover:grayscale-0 transition-all" /></a>
+                <a href="https://www.aayazilim.net/" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-1.5 bg-gray-50 hover:bg-white rounded-full border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 group"><span className="text-[10px] text-gray-500 font-bold tracking-widest uppercase">Developed by</span><img src={aaLogo} alt="AA Yazılım" className="h-4 w-auto object-contain grayscale group-hover:grayscale-0 transition-all" /></a>
             </div>
         </div>
     </footer>

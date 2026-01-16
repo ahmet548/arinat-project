@@ -668,7 +668,7 @@ const ProjectsSection = () => {
 };
 
 const WhyArinatSection = () => {
-    const benefits = ["Gerçek dünya projelerinde deneyim", "Güçlü bir network ve kariyer fırsatı", "Sektör liderlerinden mentorluk", "Sosyal etkinlikler ve teknik geziler", "Takım çalışması ve liderlik"];
+    const benefits = ["Teknoloji dünyasının sistemini anlama deneyimi", "Güçlü bir network ve kariyer fırsatı", "Sektör liderleriyle kariyer yolculuğu", "Sosyal etkinlikler ve teknik geziler", "Takım çalışmaları ve birlikte gelişim"];
     return (
         <section id="neden-arinat" className="py-32 bg-gray-900 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
@@ -677,7 +677,7 @@ const WhyArinatSection = () => {
                 <div className="grid lg:grid-cols-2 gap-20 items-center">
                     <div>
                         <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Neden <span className="text-emerald-400">ARİNAT?</span></h2>
-                        <p className="text-gray-400 mb-10 text-lg leading-relaxed">Sadece bir topluluk değil, geleceğin mühendislerini ve liderlerini yetiştiren bir okuluz. İşte bizimle olman için sebepler:</p>
+                        <p className="text-gray-400 mb-10 text-lg leading-relaxed">Sadece bir topluluk değil, geleceğin teknolojisine hakim mühendisler ve inovatif fikirler üreten bir ekibiz. İşte bizimle olman için sebepler:</p>
                         <ul className="space-y-6">{benefits.map((item, idx) => (<li key={idx} className="flex items-center gap-4 group"><div className="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center border border-emerald-500/30 group-hover:bg-emerald-500 group-hover:text-white transition-colors"><span className="text-sm font-bold">{idx + 1}</span></div><span className="text-lg text-gray-300 group-hover:text-white transition-colors">{item}</span></li>))}</ul>
                     </div>
                     <div className="relative lg:h-[600px] w-full">

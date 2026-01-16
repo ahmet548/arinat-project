@@ -596,9 +596,6 @@ const ProjectsSection = () => {
                         </span>
                         <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-3 tracking-tight">Öne Çıkan Projelerimiz</h2>
                     </div>
-                    <p className="text-gray-600 max-w-lg text-left md:text-right mt-4 md:mt-0 font-medium">
-                        PDF içeriklerinden derlenen, teknolojinin sınırlarını zorlayan ödüllü çalışmalarımız.
-                    </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[400px]">

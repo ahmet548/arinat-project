@@ -401,12 +401,12 @@ const HeroSection = () => (
                 </div>
 
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-none text-white drop-shadow-2xl">
-                    Geleceği <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">Kodla.</span> <br />
-                    Sınırları <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-violet-400">Aşan.</span>
+                    Sınırlarını  <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">Keşfet.</span> <br />
+                    Kendini  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-violet-400">Oluştur.</span>
                 </h1>
 
                 <p className="text-lg md:text-2xl text-gray-300 max-w-2xl mx-auto font-light leading-relaxed">
-                    ARİNAT; mühendislik tutkusunu projeye, projeyi başarıya dönüştürenlerin buluşma noktasıdır.
+                    Arinat: Sorularla yola çıktığı, çözümle büyüdüğü; projelerin notaya, çözümlerin armoniye dönüştüğü bir topluluk.
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center gap-4 pt-6 w-full sm:w-auto">
@@ -460,7 +460,7 @@ const MissionVisionSection = () => (
                         <div>
                             <div className="w-12 h-12 md:w-14 md:h-14 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center mb-4 md:mb-6 text-xl md:text-2xl shadow-inner"><Globe /></div>
                             <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 md:mb-4">Misyonumuz</h3>
-                            <p className="text-sm md:text-base text-gray-600 leading-relaxed">Mühendislik disiplinlerinde önce arayışı daha sonra inşaya teşvik ederken bilgi ile uygulamayı ahenk içinde birleştirerek inovatif projeler geliştiren, teknolojiden güç alarak toplumsal fayda odaklı insanlar yetiştirmeyi amaçlayan bir Mühendislik orkestrası oluşturmaktır.</p>
+                            <p className="text-sm md:text-base text-gray-600 leading-relaxed">Mühendislik disiplinleriyle önce arayışı daha sonra inşayı teşvik ederken bilgi ile uygulamayı ahenk içinde birleştirerek inovatif projeler geliştiren, teknolojiden güç alarak toplumsal fayda odaklı insanlar yetiştirmeyi amaçlayan bir mühendis orkestrası oluşturmaktır.</p>
                         </div>
                         <div className="w-full h-1 bg-gray-100 rounded-full overflow-hidden mt-4">
                             <div className="w-1/3 h-full bg-emerald-500 group-hover:w-full transition-all duration-700 ease-out"></div>
@@ -473,7 +473,7 @@ const MissionVisionSection = () => (
                         <div>
                             <div className="w-12 h-12 md:w-14 md:h-14 bg-white/10 text-white rounded-2xl flex items-center justify-center mb-4 md:mb-6 text-xl md:text-2xl backdrop-blur-sm border border-white/10"><BookOpen /></div>
                             <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Vizyonumuz</h3>
-                            <p className="text-sm md:text-base text-gray-300 leading-relaxed">Bilgiyi keşfe, keşfi yeniliğe dönüştüren; mühendislikte araştırma, üretim ve iş birliğini aynı armonide buluşturarak sürdürülebilir ve yenilikçi çözümler üreten bir mühendislik ekolü olmaktır.</p>
+                            <p className="text-sm md:text-base text-gray-300 leading-relaxed">Bilgiyi keşfe, keşfi yeniliğe dönüştüren; araştırma, üretim ve iş birliğini aynı armonide buluşturarak sürdürülebilir ve yenilikçi çözümler üreten bir mühendislik ekolü olmak.</p>
                         </div>
 
                         {/* GÜNCELLENEN KISIM: div yerine a etiketi ve href eklendi */}
@@ -494,7 +494,7 @@ const WhatWeDoSection = () => {
     const activities = [
         {
             title: "Yazılım Atölyeleri",
-            desc: "React, Python, Node.js ve Modern Web teknolojileri üzerine haftalık düzenli eğitimler.",
+            desc: "Java , Python, C# , C++, Modern Web Teknolojileri gibi yazılım atölyeleriyle aylık eğitimler.",
             image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2070&auto=format&fit=crop",
             icon: null, // Sadece resim olan kart
             className: "md:col-span-2", // Geniş kart
